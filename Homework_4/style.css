@@ -1,0 +1,86 @@
+.contener {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 30px;
+  text-align: center;
+  color: green;
+}
+
+.item {
+  height: 490px;
+  width: 350px;
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 1px;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+}
+
+img {
+  height: 250px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 0px;
+
+}
+
+.dis {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: purple;
+}
+
+.cost {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 40px;
+
+
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: green;
+}
+
+.buy {
+  height: 50px;
+  width: 200px;
+  margin-left: 60px;
+  margin-top: 70px;
+  position: absolute;
+  border: 1px solid purple;
+  border-radius: 5px;
+  background-color: green;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 167, 243);
+  color: white;
+  text-align: center;
+}
+
+.link {
+  color:green;
+  font-weight:bold   
+}
